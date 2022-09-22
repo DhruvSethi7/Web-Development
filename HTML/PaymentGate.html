@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+</head>
+<body>
+    <form action="">
+    <h1>Payment Gateway</h1>
+    <h2>User Details</h2>
+    <p>Name :<input type="text" name="name"></p>
+    <fieldset>
+        <legend>Gender</legend>
+        <p>Male :<input type="radio" name="Male"> Female : <input type="radio" name="Male"></p>
+    </fieldset>
+    <p>Address : <textarea name="Address" id="" cols="80" rows="10"></textarea></p>
+    <p>Email : <input type="email" name="email"></p>
+    <p>PinCode: <input type="number" name="pincode"></p>
+    <h2>Card Details</h2>
+    <p>CardType* :
+        <select name="cardType" id="" required>
+            <option value="">Select a card</option>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Rupay">Rupay</option>
+        </select> 
+    </p>
+    <p>Card Number :<input type="number" name="cardnumber"></p>
+    <p>CVV : <input type="password" name="cvv"></p>
+    <p>Expiry Date : <input type="date" name="expirydate"></p>
+    <input type="submit" value="Pay Now">
+    </form>
+</body>
+</html>
